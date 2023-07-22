@@ -3,7 +3,6 @@ import 'dart:io';
 // Initialize the user's order lists and previous orders
 List<String> orderItems = [];
 List<double> orderPrices = [];
-List<List<String>> previousOrders = [];
 List<List<double>> previousOrderPrices = [];
 
 // Define a function to display the available food items
@@ -155,3 +154,4 @@ void main() {
     }
   }
 }
+//https://github.com/Abdul-Haseeb-Rajput/console_based_project
