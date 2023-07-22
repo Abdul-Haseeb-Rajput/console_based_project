@@ -146,12 +146,6 @@ void main() {
         print("Invalid choice. Please try again.");
         break;
     }
-
-    // Save the current order to the list of previous orders if the order is not empty
-    if (orderItems.isNotEmpty) {
-      previousOrders.add(List.from(orderItems));
-      previousOrderPrices.add(List.from(orderPrices));
-    }
   }
 }
 //https://github.com/Abdul-Haseeb-Rajput/console_based_project
