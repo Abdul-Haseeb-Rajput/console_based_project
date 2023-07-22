@@ -1,9 +1,8 @@
 import 'dart:io';
 
-// Initialize the user's order lists and previous orders
+// Initialize the user's order lists
 List<String> orderItems = [];
 List<double> orderPrices = [];
-List<List<double>> previousOrderPrices = [];
 
 // Define a function to display the available food items
 void displayFoodItems(List<String> foodItems, List<double> prices) {
